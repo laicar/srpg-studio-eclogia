@@ -1,8 +1,11 @@
 # srpg-studio-eclogia
-Discord user AlanaEclogia#9407's SRPG Studio plugins
+
+Discord user AlanaEclogia#9407's SRPG Studio plugins.
+
 Free to use as you want. Instructions are inside the files.
 
 # Contact
+
 Found a bug? Can't understand how to use a plugin? [Find me on the SRPG Studio University Discord server](https://discord.gg/GcTS5EH)
 
 # Plugin List
