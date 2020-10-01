@@ -1,6 +1,6 @@
 # srpg-studio-eclogia
 
-Discord user AlanaEclogia#9407's SRPG Studio plugins.
+Discord user AlanaEclogia#9407's SRPG Studio plugins and assets.
 
 Free to use as you want. Instructions are inside the files.
 
@@ -8,7 +8,7 @@ Free to use as you want. Instructions are inside the files.
 
 Found a bug? Can't understand how to use a plugin? [Find me on the SRPG Studio University Discord server](https://discord.gg/GcTS5EH)
 
-# Plugin List
+# Plugin & Asset List
 
 **Battle-related plugins**
 
@@ -22,6 +22,10 @@ Found a bug? Can't understand how to use a plugin? [Find me on the SRPG Studio U
 
 **Utils**
 - UnitCommand is a template for a custom unit command (one of the options when you select a unit).
+
+**Graphics**
+- blank-charchip is a charchip for any unit you want to be invisible (like walls if you use units for them). Remember to make copies of it with -a to -c to give the engine alternate colors.
+- [McMagister mapchip](https://github.com/McMagister/srpg-studio-stuff/tree/master/32px%20FE-style%20Tileset) edits: Besides rearranging the layout, I added alternate 1-tile-high vertical cliffs, more layouts for the cliff corners, breakable walls, and an additional pillar tile.
 
 # MIT License
 

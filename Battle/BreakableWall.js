@@ -1,7 +1,7 @@
 //Simple plugin to manage units that act as breakable wall.
 //You will still have to do the map chip change event upon death.
 //Set the unit custom parameter as such: {isWall: true}
-//Made by Eclogia
+//Made by Eclogia, using old code by Goinza
 
 var BreakableWall = {
 	changeAllWallsUnitType: function(startEndType) {
@@ -45,4 +45,10 @@ var BreakableWall = {
 		BreakableWall.changeAllWallsUnitType(result);
 		return result;
 	}
+
+	//The following is by Goinza
+    var alias2 = MapEdit._openMenu;
+    MapEdit._openMenu = function(unit) {
+        return unit !== null && unit.custom.isWall!=null && unit.custom.isWall ? MapEditResult.NONE : alias2.call(this, unit);
+    }
 })();
