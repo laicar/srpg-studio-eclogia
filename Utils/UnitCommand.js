@@ -1,6 +1,6 @@
 /*
 ** Unit Command template plugin by Eclogia
-** In this template, the command is displayable if the unit has a skill with the keyword "NewCommand"
+** In this template, the command is displayable if the unit has a custom skill with the keyword "NewCommand"
 */
 (function() {
 	var cc01 = UnitCommand.configureCommands;

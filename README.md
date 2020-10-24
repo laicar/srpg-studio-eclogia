@@ -13,6 +13,7 @@ Found a bug? Can't understand how to use a plugin? [Find me on the SRPG Studio U
 **Battle-related plugins**
 
 - BreakableWall changes a unit's affiliation between Ally and Enemy so it can be targeted at all times.
+- InvalidateSkillHpThreshold allows invalidate-type skills to only trigger under or above an HP% threshold.
 - KnockbackWeapon has a weapon or a skill make the user or the target move away from the other.
 - LinkedUnitHP changes a main unit's HP when a sub unit dies.
 - SynchronizedHP updates units' HP when one of the units in the group has a HP change.
@@ -21,11 +22,13 @@ Found a bug? Can't understand how to use a plugin? [Find me on the SRPG Studio U
 - CoordinatesInDirection teaches you how to check from which cardinal direction a unit was attacked and use the data to change terrain between the two fighters.
 
 **Utils**
-- UnitCommand is a template for a custom unit command (one of the options when you select a unit).
+- UnitCommand is a template for a custom unit command (one of the options when you select a unit) which checks if the unit has the appropriate custom skill that would make the command available.
+- AgainAdjacentItem allows the creation of "Instruments", items that refresh all adjacent allies and allows them to act again.  
 
 **Graphics**
-- blank-charchip is a charchip for any unit you want to be invisible (like walls if you use units for them). Remember to make copies of it with -a to -c to give the engine alternate colors.
-- [McMagister mapchip](https://github.com/McMagister/srpg-studio-stuff/tree/master/32px%20FE-style%20Tileset) edits: Besides rearranging the layout, I added alternate 1-tile-high vertical cliffs, more layouts for the cliff corners, breakable walls, and an additional pillar tile.
+- Alphabet-extended is the RTP Alphabet with extra symbols and numbers.
+- blank-charchip is a charchip for any unit you want to be invisible (like walls if you use units for them). Remember to make copies of it with -a to -c to give the engine alternate colors. Really, it's only there if you do not have a transparency-handling software.
+- [McMagister mapchip](https://github.com/McMagister/srpg-studio-stuff/tree/master/32px%20FE-style%20Tileset) edits: Besides rearranging the layout, I added alternate 1-tile-high vertical cliffs, more layouts for the cliff corners, breakable walls, and an additional pillar tile. They are licenced under the [Creative Commons Attribution-Share Alike 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/) so you can use them outside SRPG Studio.
 
 # MIT License
 
