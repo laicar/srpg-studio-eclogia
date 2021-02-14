@@ -28,7 +28,7 @@ Found a bug? Can't understand how to use a plugin? [Find me on the SRPG Studio U
 **Graphics**
 - Alphabet-extended is the RTP Alphabet with extra symbols and numbers.
 - blank-charchip is a charchip for any unit you want to be invisible (like walls if you use units for them). Remember to make copies of it with -a to -c to give the engine alternate colors. Really, it's only there if you do not have a transparency-handling software.
-- [McMagister mapchip](https://github.com/McMagister/srpg-studio-stuff/tree/master/32px%20FE-style%20Tileset) edits: Besides rearranging the layout, I added alternate 1-tile-high vertical cliffs, more layouts for the cliff corners, breakable walls, and an additional pillar tile. They are licenced under the [Creative Commons Attribution-Share Alike 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/) so you can use them outside SRPG Studio.
+- [McMagister mapchip](https://github.com/McMagister/srpg-studio-stuff/tree/master/32px%20FE-style%20Tileset) edits: Besides rearranging the layout, I added some new tiles. They are licenced under the [Creative Commons Attribution-Share Alike 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/) so you can use them outside SRPG Studio.
 
 # MIT License
 
