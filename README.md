@@ -23,7 +23,8 @@ Found a bug? Can't understand how to use a plugin? [Find me on the SRPG Studio U
 
 **Utils**
 - UnitCommand is a template for a custom unit command (one of the options when you select a unit) which checks if the unit has the appropriate custom skill that would make the command available.
-- AgainAdjacentItem allows the creation of "Instruments", items that refresh all adjacent allies and allows them to act again.  
+- AgainAdjacentItem allows the creation of "Instruments", items that refresh all adjacent allies and allows them to act again.
+- PrepScreenStackableItems creates a new prep screen command that merges together items of the same type whose durability is inferior to their maximum durability. The result is max-durability items, with leftover uses in an extra item.
 
 **Graphics**
 - Alphabet-extended is the RTP Alphabet with extra symbols and numbers.
