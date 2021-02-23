@@ -1,6 +1,6 @@
 # srpg-studio-eclogia
 
-Discord user AlanaEclogia#9407's SRPG Studio plugins and assets.
+Discord user AlanaEclogia#1789's SRPG Studio plugins and assets.
 
 Free to use as you want. Instructions are inside the files.
 
@@ -24,12 +24,12 @@ Found a bug? Can't understand how to use a plugin? [Find me on the SRPG Studio U
 **Utils**
 - UnitCommand is a template for a custom unit command (one of the options when you select a unit) which checks if the unit has the appropriate custom skill that would make the command available.
 - AgainAdjacentItem allows the creation of "Instruments", items that refresh all adjacent allies and allows them to act again.
-- PrepScreenStackableItems creates a new prep screen command that merges together items of the same type whose durability is inferior to their maximum durability. The result is max-durability items, with leftover uses in an extra item.
+- MarshalStackableItems creates a new prep screen-management-submenu command that merges together items of the same type whose durability is inferior to their maximum durability. The result is max-durability items, with leftover uses in a last item. PrepScreenStackableItems is its deprecated version for the prep screen itself. Thanks to Markyjoe for helping me with these.
 
 **Graphics**
 - Alphabet-extended is the RTP Alphabet with extra symbols and numbers.
 - blank-charchip is a charchip for any unit you want to be invisible (like walls if you use units for them). Remember to make copies of it with -a to -c to give the engine alternate colors. Really, it's only there if you do not have a transparency-handling software.
-- [McMagister mapchip](https://github.com/McMagister/srpg-studio-stuff/tree/master/32px%20FE-style%20Tileset) edits: Besides rearranging the layout, I added some new tiles. They are licenced under the [Creative Commons Attribution-Share Alike 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/) so you can use them outside SRPG Studio.
+- [McMagister mapchip](https://github.com/McMagister/srpg-studio-stuff/tree/master/32px%20FE-style%20Tileset) edits: Besides rearranging the layout, I added some new tiles. They are licenced under the [Creative Commons Attribution-Share Alike 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/) so you can use them outside SRPG Studio. [Check out my mountain-making tutorial for these.](https://docs.google.com/document/d/1Otvbu5b1pql9jYQ3IGjZYwZl77Y4GIBHDxMOfLnsyqE/edit?usp=sharing)
 
 # MIT License
 
