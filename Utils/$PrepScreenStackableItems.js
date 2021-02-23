@@ -1,4 +1,7 @@
 /*
+DEPRECATED version! Please use the Marshal version instead.
+I'm only keeping this as an example of prep screen extra command.
+
 Item-stacking command for the preparation screen by Eclogia, inspired by LadyRena (aka Claris)
 Will merge items having the custom parameter {Stackable: true},
 both in the convoy and inside a unit's inventory (no cross-inventory merges).
@@ -112,6 +115,8 @@ SetupCommand.Merge = defineObject(BaseListCommand,
 		StockItemControl.sortItem();
 		for (var j = 0; j < itemArray.length -1; j++) {
 			var item = itemArray[j];
+			if (item.getLimitMax() === 0 || !item.custom.Stackable || item.getLimitMax() === item.getLimit())
+				continue;
 			var item2 = null;
 			for (var i = j +1; i < itemArray.length; i++){
 				if (itemArray[i].getName() === item.getName()){
@@ -122,7 +127,7 @@ SetupCommand.Merge = defineObject(BaseListCommand,
 			if (item2 !== null){
 				var maxDurability = item2.getLimitMax();
 				var stockDurability = item2.getLimit();
-				if (item2.custom.Stackable && stockDurability < maxDurability){
+				if (stockDurability < maxDurability){
 					var newDurability = item.getLimit() + stockDurability;
 					var overflow = newDurability - maxDurability;
 					if(overflow > 0) {

@@ -1,25 +1,26 @@
 /*
 ** Unit Command template plugin by Eclogia
 ** In this template, the command is displayable if the unit has a custom skill with the keyword "NewCommand"
+** I recommend you check out MarshalStackableItems.js in my same folder for more advanced principles to apply here.
 */
 (function() {
 	var cc01 = UnitCommand.configureCommands;
 	UnitCommand.configureCommands = function(groupArray) {
 		cc01.call(this, groupArray);
 		//add the new command at the beginning of the list (index 0)
-		groupArray.insertObject(UnitCommand.NewCommand, 0);
+		//groupArray.insertObject(UnitCommand.NewCommand, 0);
 		//alternatively, add the new command at the end of the list
-		//groupArray.appendObject(UnitCommand.NewCommand);
+		groupArray.appendObject(UnitCommand.NewCommand);
 	}
 })();
 
 UnitCommand.NewCommand = defineObject(UnitListCommand, {
 	openCommand: function() {
-		//Do stuff here
+		//Prepare to do stuff here
 	},
 
 	moveCommand: function() {
-		//You can also do stuff here, depending on what you're doing.
+		//Actually do the stuff here
 		this.endCommandAction();
 		return MoveResult.END;
 	},
